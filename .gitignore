@@ -1,0 +1,30 @@
+# --- ByteDance / Douyin proprietary material — never commit (not ours to redistribute) ---
+*.apk
+*.so
+*.dex
+*.smali
+jadx*/
+jadx_out/
+so/
+dex/
+harness/so/
+capture/
+
+# --- local un-redacted analysis notes (may contain the live license) ---
+DOUYIN_METASEC_RE.md
+FINDINGS_metasec_vmp.md
+*_HANDOFF_PROMPT.md
+
+# --- build output ---
+target/
+*.jar
+*.class
+__pycache__/
+*.pyc
+
+# --- editor / os ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
